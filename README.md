@@ -43,6 +43,7 @@ _A list of my commonly used Git commands_
 | Command | Description |
 | ------- | ----------- |
 | `git merge --abort` | Discard merge conflict |
+| `git reset [Target commit id] and git push origin [branch name] -f` | Remove commit from remote |
 | `git merge [branch name]` | Merge a branch into the active branch |
 | `git merge [source branch] [target branch]` | Merge a branch into a target branch |
 | `git remote prune origin ` | update local branch from remote |
