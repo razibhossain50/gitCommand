@@ -47,7 +47,7 @@ git push -f origin master
 | ------- | ----------- |
 | `git merge --abort` | Discard merge conflict |
 | `git merge [branch name]` | Merge a branch into the active branch |
-| `git reset [Target commit] and git push origin [branch name] -f` | Go last commit and delete after all commit |
+| `git reset [Target commit] or git reset --hard HEAD^[HEAD~2(for few commit)] and git push origin [branch name] -f` | Go last commit and delete after all commit |
 | `git merge [source branch] [target branch]` | Merge a branch into a target branch |
 | `git remote prune origin ` | update local branch from remote |
 | `git stash -u, git stash pop ` | stash untracked file and pop untracked file from another branch |
