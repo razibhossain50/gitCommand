@@ -46,6 +46,7 @@ _A list of my commonly used Git commands_
 | `git merge [branch name]` | Merge a branch into the active branch |
 | `git merge [source branch] [target branch]` | Merge a branch into a target branch |
 | `git remote prune origin ` | update local branch from remote |
+| `git reflog show [branch-name]` | Check branch was created from which branch |
 | `git config --get remote.origin.fetch And git config --unset-all remote.origin.fetch And git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/*` | Git config for fetch remote branch  |
 
 
